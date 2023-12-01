@@ -1,8 +1,8 @@
-const { v4: uuidv4}= require("uuid")
+const { v4: uuidBooking}= require("uuid")
 
 class Booking {
     constructor(roomID, guestName, checkInDate, checkOutDate){
-        this.id = uuidv4()
+        this.id = uuidBooking()
         this.roomID= roomID
         this.guestName= guestName
         this.checkInDate= checkInDate

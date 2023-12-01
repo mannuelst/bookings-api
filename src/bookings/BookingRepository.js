@@ -6,7 +6,7 @@ class BookingRepository{
         return this.bookings
     }
     create(booking){
-        this.bookings.push(bookings)
+        this.bookings.push(booking)
     }
 }
 module.exports = BookingRepository

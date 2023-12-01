@@ -1,0 +1,16 @@
+GET http://localhost:3000/booking HTTP/1.1
+
+##
+
+POST http://localhost:3000/api/bookings HTTP/1.1
+content-type: application/json
+{
+    "roomID": "123",
+    "guestName": "UNK USER",
+    "checkInDate": "2023-04-08",
+    "checkOutDate": "2023-05-09"
+}
+
+## 
+
+GET http://localhost:3000/api/bookings HTTP/1.1
